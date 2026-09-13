@@ -6,7 +6,7 @@
 set -euo pipefail
 
 REPO_URL="${1:-https://github.com/mukkumayc/apm.git}"
-BEFORE_REF="${2:-8758587f}"
+BEFORE_REF="${2:-f8df1b75}"
 AFTER_REF="${3:-perf/placement-large-tree-scaling}"
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
